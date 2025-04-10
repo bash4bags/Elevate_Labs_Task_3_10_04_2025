@@ -17,5 +17,6 @@
 8. Terraform destroy
 > .\terraform destroy 
 9. Checking logs
-.\terraform init > init.txt
+> .\terraform init > init.txt
+<br>
 Elevate_Labs_Task_3_10_04_2025\execution_logs
