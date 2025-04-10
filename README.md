@@ -1,23 +1,21 @@
 #TASK 3 : Infrastructure as Code (IaC) with Terraform
 
 1. Install Terraform
-![alt text](image.png)
+> .\terraform --version
 2. Move to Working Directory Elevate_Labs_Task_3_10_04_2025
+> cd .\Elevate_Labs_Task_3_10_04_2025\
 3. Create a main.tf file
 4. Initialize Terraform Working Directory
-![alt text](image-1.png)
+> .\terraform init
 5. Preview infrastructure changes
-![alt text](image-2.png)
+> .\terraform plan
 5. Apply configuration
-![alt text](image-3.png)
-![alt text](image-4.png)
+> .\terraform apply 
 6. Check if container running
-![alt text](image-5.png)
-![alt text](image-6.png)
 7. Checking terraform state list
-![alt text](image-7.png)
+> .\terraform state list     
 8. Terraform destroy
-![alt text](image-8.png)
-![alt text](image-9.png)
+> .\terraform destroy 
 9. Checking logs
+.\terraform init > init.txt
 Elevate_Labs_Task_3_10_04_2025\execution_logs
